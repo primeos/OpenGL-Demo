@@ -1,0 +1,12 @@
+# Ignore user specific project file
+/OpenGL-Demo.pro.user
+
+# Ignore libs
+/lib/*
+
+# Ignore build results
+/build/*
+/build-*
+
+# Ignore binaries
+/bin/*
