@@ -8,6 +8,7 @@ CONFIG += c++11
 
 #Important: you have to copy SDL2.dll from bin to lib in order to make the program work!
 win32:LIBS += -L$$PWD/lib/SDL2-2.0.3/i686-w64-mingw32/lib/ -lSDL2 -lSDL2main -mwindows -lopengl32 -lmingw32
+unix:LIBS += -lSDL2 -SDL2main -lGL
 win32:INCLUDEPATH += $$PWD/lib/SDL2-2.0.3/i686-w64-mingw32/include $$PWD/lib/glm-0.9.5.4/glm
 
 INCLUDEPATH += include
